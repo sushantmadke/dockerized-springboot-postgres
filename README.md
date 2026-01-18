@@ -54,7 +54,7 @@ It uses **PostgreSQL** as the database and is fully **Dockerized** for easy loca
 
 ### 2️⃣ Get User by ID
 
-GET /api/v1/user/{id}
+**GET**  /api/v1/user/{id}
 
 Example:
 
