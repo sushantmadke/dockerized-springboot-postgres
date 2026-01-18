@@ -51,6 +51,7 @@ It uses **PostgreSQL** as the database and is fully **Dockerized** for easy loca
     }
   ]
 }
+```
 
 ### 2️⃣ Get User by ID
 
@@ -62,7 +63,7 @@ GET /api/v1/user/1
 
 
 Response
-
+```json
 {
   "id": 1,
   "firstName": "Sushant",
@@ -79,4 +80,4 @@ Response
     }
   ]
 }
-
+```
