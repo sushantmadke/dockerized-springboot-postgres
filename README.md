@@ -52,4 +52,31 @@ It uses **PostgreSQL** as the database and is fully **Dockerized** for easy loca
   ]
 }
 
+### 2️⃣ Get User by ID
+
+GET /api/v1/user/{id}
+
+Example:
+
+GET /api/v1/user/1
+
+
+Response
+
+{
+  "id": 1,
+  "firstName": "Sushant",
+  "lastName": "Madke",
+  "address": [
+    {
+      "id": 1,
+      "addressType": "HOME",
+      "houseNumber": "12",
+      "street": "Sheetal Baug",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "zipCode": "411309"
+    }
+  ]
+}
 
